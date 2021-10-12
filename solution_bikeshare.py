@@ -11,10 +11,10 @@ days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','Al
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to specify a city, month, and day to explore.
 
     Returns:
-        (str) city - name of the city to analyze
+        (str) city - name of the city to explore
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
@@ -64,7 +64,7 @@ def load_data(city, month, day):
     Loads data for the specified city and filters by month and day if applicable.
 
     Args:
-        (str) city - name of the city to analyze
+        (str) city - name of the city to explore
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
